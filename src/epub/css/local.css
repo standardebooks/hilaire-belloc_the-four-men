@@ -88,7 +88,6 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
-
 /* Illustrations */
 figure{
 	break-inside: avoid;
@@ -186,6 +185,13 @@ p span.i4{
 }
 /* End Verse */
 
+/* Start Header */
+header{
+	margin: 1em;
+	text-align: center;
+}
+/* End Header */
+
 /* Custom Styles (not copied/pasted from the SE manual) */
 /* Running Heads/Shoulder Notes (taken from the headers above each printed page, that section the text) */
 div.aside{
@@ -211,6 +217,25 @@ div.aside{
 }
 /* End Running Heads/Shoulder Notes */
 
-section#dedication blockquote {
+section#dedication blockquote{
 	font-variant: small-caps;
+}
+
+section#chapter-3 ul{
+	list-style-type: none;
+	margin: 1em 0 1em 2em;
+	padding: 0;
+}
+
+section#chapter-3 ul li:last-child{
+	font-variant: small-caps;
+}
+
+section#chapter-3 blockquote:nth-of-type(2) header{
+	font-variant: small-caps;
+}
+
+blockquote[epub|type~="z3998:song"] header p{
+	margin-bottom: 1em;
+	text-align: center;
 }
