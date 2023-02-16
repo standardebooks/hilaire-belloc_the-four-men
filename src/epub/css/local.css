@@ -240,17 +240,22 @@ blockquote[epub|type~="z3998:song"] header p{
 	text-align: center;
 }
 
+/* Start The Hideous Man's "Card" */
 section#chapter-4 > blockquote:nth-of-type(1){
 	border: 1px solid black;
-	padding: .5em;
-	width: 12em;
+	font-style: italic;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	width: 10em;
 }
 
-section#chapter-4 blockquote:nth-of-type(1) div:nth-of-type(1){
+section#chapter-4 blockquote:nth-of-type(1) p:nth-of-type(1){
 	margin-bottom: 1em;
 	text-align: center;
 }
 
-section#chapter-4 blockquote:nth-of-type(1) div:nth-of-type(2){
+section#chapter-4 blockquote:nth-of-type(1) p:nth-of-type(2){
 	text-align: right;
 }
+/* End The Hideous Man's "Card" */
