@@ -250,12 +250,12 @@ section#chapter-4 > blockquote:nth-of-type(1){
 	width: 10em;
 }
 
-section#chapter-4 blockquote:nth-of-type(1) p:nth-of-type(1){
+section#chapter-4 > blockquote:nth-of-type(1) p:nth-of-type(1){
 	margin-bottom: 1em;
 	text-align: center;
 }
 
-section#chapter-4 blockquote:nth-of-type(1) p:nth-of-type(2){
+section#chapter-4 > blockquote:nth-of-type(1) p:nth-of-type(2){
 	text-align: right;
 }
 /* End The Hideous Man's "Card" */
