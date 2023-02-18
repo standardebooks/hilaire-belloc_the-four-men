@@ -18,7 +18,9 @@
 		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
 		<meta property="a11y:certifiedBy">Standard Ebooks</meta>
 		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityFeature">alternativeText</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
@@ -28,13 +30,22 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Four Men</dc:title>
 		<meta property="file-as" refines="#title">Four Men, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<meta property="dcterms:alternate" refines="#title">The 4 Men</meta>
+		<dc:title id="subtitle">A Farrago</dc:title>
+		<meta property="file-as" refines="#subtitle">A Farrago</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Four Men: A Farrago</dc:title>
+		<meta property="file-as" refines="#fulltitle">Four Men, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="dcterms:alternate" refines="#fulltitle">The 4 Men: A Farrago</meta>
 		<dc:subject id="subject-1">Sussex (England)--Social life and customs--Humor.</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<meta property="se:subject">Spirituality</meta>
 		<meta property="se:subject">Travel</meta>
-		<dc:description id="description">Hilaire Belloc takes a pilgrimage across his beloved home English county of Sussex writing as four distinct personalities, with a wide variety of digressions.</dc:description>
+		<dc:description id="description">Hilaire Belloc takes a pilgrimage across his beloved home English county of Sussex writing as four distinct personalities, with a wide variety of songs and digressions.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
@@ -69,6 +80,7 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
