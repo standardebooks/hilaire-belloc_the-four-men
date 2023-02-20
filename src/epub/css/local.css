@@ -91,7 +91,7 @@ section[epub|type~="epigraph"] > *{
 /* Illustrations */
 figure{
 	break-inside: avoid;
-	margin: 1em auto;
+	margin: 1em 40px;
 	text-align: center;
 }
 
@@ -264,3 +264,20 @@ section#chapter-4 > blockquote:nth-of-type(1) p:nth-of-type(2){
 	text-align: right;
 }
 /* End The Hideous Man's "Card" */
+
+/* Illustrations */
+/* Force dedication and epigraph figure widths, otherwise shows up as 0 */
+section[epub|type~="epigraph"] figure img,
+section[epub|type~="dedication"] figure img{
+	width: 20em;
+}
+
+/* Reasonable image sizes for larger screens based on image size and text resolution (roughly ~16 px : 1em at 'normal' sizes in browsers) */
+/* Figure widths */
+figure#illustration-4{
+	max-width: 40em;
+}
+
+figure#illustration-5{
+	max-width: 20em;
+}
