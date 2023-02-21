@@ -50,7 +50,10 @@
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
+		<!--Source 1: Illustrations 1-6-->
 		<dc:source>https://archive.org/details/cu31924013585041</dc:source>
+		<!--Source 2: Illustration 7-->
+		<dc:source>https://archive.org/details/fourmenfarrago00bel</dc:source>
 		<dc:source>https://archive.org/details/fourmenfarrago0000bell</dc:source>
 		<dc:source>https://archive.org/details/fourmenfarrago00belliala</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
