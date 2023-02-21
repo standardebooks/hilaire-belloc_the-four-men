@@ -268,17 +268,18 @@ section#chapter-4 > blockquote:nth-of-type(1) p:nth-of-type(2){
 /* Illustrations */
 /* Force dedication and epigraph figure widths, otherwise shows up as 0 */
 section[epub|type~="epigraph"] figure,
-section[epub|type~="dedication"] figure {
-	width: 20em;
+section[epub|type~="dedication"] figure{
 	margin-top: 3em;
+	width: 20em;
 }
 
 /* Reasonable image sizes for larger screens based on image size and text resolution (roughly ~16 px : 1em at 'normal' sizes in browsers) */
-/* Figure widths */
-figure#illustration-4{
+figure#illustration-4,
+figure#illustration-7{
 	max-width: 40em;
 }
 
-figure#illustration-5{
+figure#illustration-5,
+figure#illustration-8{
 	max-width: 20em;
 }
