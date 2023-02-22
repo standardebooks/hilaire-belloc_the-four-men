@@ -275,11 +275,13 @@ section[epub|type~="dedication"] figure{
 
 /* Reasonable image sizes for larger screens based on image size and text resolution (roughly ~16 px : 1em at 'normal' sizes in browsers) */
 figure#illustration-4,
-figure#illustration-7{
+figure#illustration-7,
+figure#illustration-10{
 	max-width: 40em;
 }
 
 figure#illustration-5,
-figure#illustration-8{
+figure#illustration-8,
+figure#illustration-11{
 	max-width: 20em;
 }

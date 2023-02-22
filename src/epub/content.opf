@@ -52,10 +52,11 @@
 		<dc:language>en-GB</dc:language>
 		<!--Source 1: Illustrations 1-6-->
 		<dc:source>https://archive.org/details/cu31924013585041</dc:source>
-		<!--Source 2: Illustrations 7-8-->
+		<!--Source 2: Illustrations 7-8, 10-11-->
 		<dc:source>https://archive.org/details/fourmenfarrago00bel</dc:source>
-		<dc:source>https://archive.org/details/fourmenfarrago0000bell</dc:source>
+		<!--Source 3: Illustration 9-->
 		<dc:source>https://archive.org/details/fourmenfarrago00belliala</dc:source>
+		<dc:source>https://archive.org/details/fourmenfarrago0000bell</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
