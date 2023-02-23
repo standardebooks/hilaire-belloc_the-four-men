@@ -50,11 +50,11 @@
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
-		<!--Source 1: Illustrations 1-6-->
+		<!--Source 1: Illustrations 1-6, 13 -->
 		<dc:source>https://archive.org/details/cu31924013585041</dc:source>
-		<!--Source 2: Illustrations 7-8, 10-11-->
+		<!--Source 2: Illustrations 7-8, 10-11, 14-16 -->
 		<dc:source>https://archive.org/details/fourmenfarrago00bel</dc:source>
-		<!--Source 3: Illustration 9-->
+		<!--Source 3: Illustrations 9, 12 -->
 		<dc:source>https://archive.org/details/fourmenfarrago00belliala</dc:source>
 		<dc:source>https://archive.org/details/fourmenfarrago0000bell</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
