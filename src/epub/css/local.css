@@ -287,8 +287,13 @@ figure#illustration-16{
 	max-width: 40em;
 }
 
+figure#illustration-19{
+	max-width: 30em;
+}
+
 figure#illustration-5,
 figure#illustration-8,
-figure#illustration-11{
+figure#illustration-11,
+figure#illustration-17{
 	max-width: 20em;
 }
