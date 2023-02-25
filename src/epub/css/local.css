@@ -283,11 +283,15 @@ figure#illustration-7,
 figure#illustration-10,
 figure#illustration-13,
 figure#illustration-14,
-figure#illustration-16{
+figure#illustration-16,
+figure#illustration-20,
+figure#illustration-23{
 	max-width: 40em;
 }
 
-figure#illustration-19{
+figure#illustration-19,
+figure#illustration-21,
+figure#illustration-22{
 	max-width: 30em;
 }
 
