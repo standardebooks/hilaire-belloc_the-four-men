@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-3.xhtml">
+		<ignore>
+			<code>t-030</code>
+			<reason>1 instance. "B.B." and "4.H." are pencil graphite grade abbreviations.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
