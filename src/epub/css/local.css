@@ -37,21 +37,6 @@ section[epub|type~="dedication"] > *{
 	hyphens: none;
 	-epub-hyphens: none;
 }
-
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
-[epub|type~="epigraph"] cite{
-	font-style: normal;
-	font-variant: small-caps;
-	margin-top: 1em;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
-}
 /* End all epigraphs */
 
 /* Full-page epigraphs */
@@ -101,16 +86,6 @@ figure img{
 	max-width: 100%;
 }
 
-figcaption{
-	font-size: .75em;
-	font-style: italic;
-	margin: 1em;
-}
-
-figcaption p + p{
-	text-indent: 0;
-}
-
 figure.full-page{
 	break-after: page;
 	break-before: page;
@@ -134,33 +109,25 @@ figure.full-page{
 
 /* Verse, Poem, Song, Hymn */
 [epub|type~="z3998:verse"] p,
-[epub|type~="z3998:poem"] p,
-[epub|type~="z3998:song"] p,
-[epub|type~="z3998:hymn"] p{
+[epub|type~="z3998:song"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:verse"] p + p,
-[epub|type~="z3998:poem"] p + p,
-[epub|type~="z3998:song"] p + p,
-[epub|type~="z3998:hymn"] p + p{
+[epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
 
 [epub|type~="z3998:verse"] p > span,
-[epub|type~="z3998:poem"] p > span,
-[epub|type~="z3998:song"] p > span,
-[epub|type~="z3998:hymn"] p > span{
+[epub|type~="z3998:song"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
 [epub|type~="z3998:verse"] p > span + br,
-[epub|type~="z3998:poem"] p > span + br,
-[epub|type~="z3998:song"] p > span + br,
-[epub|type~="z3998:hymn"] p > span + br{
+[epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
 
