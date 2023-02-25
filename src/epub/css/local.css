@@ -160,6 +160,7 @@ header{
 /* End Header */
 
 /* Custom Styles (not copied/pasted from the SE manual) */
+
 /* Running Heads/Shoulder Notes (taken from the headers above each printed page, that section the text) */
 div.aside{
 	border: 1px solid;
@@ -194,30 +195,15 @@ section#chapter-3 ul{
 	padding: 0;
 }
 
-section#chapter-3 ul li:last-child{
-	font-variant: small-caps;
-}
-
-section#chapter-3 blockquote:nth-of-type(2) header{
-	font-variant: small-caps;
-}
-
 /* Entire stanza is emphasized. <em> tags throw lint errors */
-section#chapter-3 blockquote:nth-of-type(10) p:nth-of-type(3){
+section#chapter-3 blockquote:nth-of-type(14) p:nth-of-type(3){
 	font-style: italic;
-}
-
-blockquote[epub|type~="z3998:song"] header p{
-	margin-bottom: 1em;
-	text-align: center;
 }
 
 /* Start The Hideous Man's "Card" */
 section#chapter-4 > blockquote:nth-of-type(1){
 	border: 1px solid black;
 	font-style: italic;
-	margin-left: auto;
-	margin-right: auto;
 	padding: 1em;
 	width: 10em;
 }
