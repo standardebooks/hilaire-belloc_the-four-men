@@ -159,6 +159,19 @@ header{
 }
 /* End Header */
 
+/* Start Footer */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+/* End Footer */
+
+/* Start Letters */
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+/* End Letters */
+
 /* Custom Styles (not copied/pasted from the SE manual) */
 /* Running Heads/Shoulder Notes (taken from the headers above each printed page, that section the text) */
 div.aside{
