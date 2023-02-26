@@ -42,12 +42,24 @@
 		<dc:subject id="subject-1">Sussex (England)--Social life and customs--Humor.</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="se:subject">Comedy</meta>
+		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Spirituality</meta>
 		<meta property="se:subject">Travel</meta>
-		<dc:description id="description">Hilaire Belloc takes a pilgrimage across his beloved home English county of Sussex writing as four distinct personalities, with a wide variety of songs and digressions.</dc:description>
+		<dc:description id="description">Hilaire Belloc takes a pilgrimage across his beloved home English county of Sussex writing as four distinct personalities, with a wide variety of songs, stories, and digressions.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;A “Farrago” is a “confused mixture,” and such a title is apt for this 1911 semi-fictional travelogue and love song to &lt;a href="https://standardebooks.org/ebooks/hilaire-belloc"&gt;Hilaire Belloc’s&lt;/a&gt; home County of Sussex. It is full to bursting of humor, songs (often including scores), speeches, drawings, fables, digressions, poetry, and legends, often partially or wholly invented, but all in the service of Belloc’s deep belief in “the character of enduring things.”&lt;/p&gt;
+			&lt;p&gt;Covering a period of five days in 1902, including All-Halloween, All-Hallows’ Day, and ending on the Day of the Dead, Belloc walks from the east end of the County of Sussex to the west, finally arriving at his boyhood home. “Four Men,” each an aspect of Belloc’s personality, travel together on this walk: Myself, Grizzlebeard, The Sailor, and The Poet. They tell tales, sermonize, versify, feast, and sing as they go, holding forth on subjects such as: &lt;abbr&gt;St.&lt;/abbr&gt; Dunstan pulling the Devil by the nose; how all animals’ hides are covered in hair (and why Myself is glad that he is not); the Pelagian Heresy (as related in song); all the inns of the world and their ale (and how Alexander fought his way to Indus to seek a certain one); tales of each man’s first love (The Sailor has a bit of trouble with his); and finally ending in a fine piece of verse on “the way in which our land and we mix up together and are part of the same thing.”&lt;/p&gt;
+			&lt;p&gt;In a review for the January 19, 1913 &lt;i&gt;New York Times&lt;/i&gt;, Robert C. Holliday celebrates the book:&lt;/p&gt;
+			&lt;blockquote&gt;
+				&lt;p&gt;“… We recommend ‘The Four Men’ to nobody.&lt;/p&gt;
+				&lt;p&gt;“To nobody, that is, but the chosen, the sons and daughters of light, the ever young, the mirthful, to those that love the bite of life, and think valiantly of death, who joy in the ring of fine prose, who know a spirit in their feet, and fare often under the wide and starry sky, who keep brothers with gnarled philosophy, and are not afraid while about it to be, for their soul’s sake, crack-brained with the glory of the world. For such, and none other, is the kingdom of ‘The Four Men.’ …&lt;/p&gt;
+				&lt;p&gt;“Those fit to read it will know the brine salt on their lips, and the large air again, will turn and see the stars and feel the free shrill wind, and&lt;/p&gt;
+				&lt;blockquote&gt;
+					&lt;p&gt;&lt;span&gt;… hear like Ocean on a western beach&lt;/span&gt;&lt;/p&gt;
+				&lt;/blockquote&gt;
+				&lt;p class="continued"&gt;The surge and thunder of this Odyssey.”&lt;/p&gt;
+			&lt;/blockquote&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- Source 1: Illustrations 1-6, 13 -->
