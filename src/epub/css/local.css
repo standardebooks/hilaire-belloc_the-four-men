@@ -234,6 +234,7 @@ section#chapter-4 > blockquote:nth-of-type(1) p:nth-of-type(2){
 /* Force dedication and epigraph figure widths, otherwise shows up as 0 */
 section[epub|type~="epigraph"] figure,
 section[epub|type~="dedication"] figure{
+	display: block;
 	margin-top: 3em;
 	width: 20em;
 }
