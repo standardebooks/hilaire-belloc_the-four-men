@@ -68,6 +68,8 @@
 		<dc:source>https://archive.org/details/fourmenfarrago00bel</dc:source>
 		<!-- Source 3: Illustrations 9, 12, 18, 19, 23-26, 28, 29, 31 -->
 		<dc:source>https://archive.org/details/fourmenfarrago00belliala</dc:source>
+		<!-- Source 4: Additional source used for checking music - Illustrations 14, 15, 16, 20, 26, 27-->
+		<dc:source>https://archive.org/details/fourmenfarrago00belluoft</dc:source>
 		<meta property="se:production-notes">Illustrations were sourced as noted in the comments, cleaned up, converted to SVG where applicable, and musicxml generated where applicable. Illustration 26 ("The Sailor's Carol") had two different notes in the 2nd to last measure of the music, so I chose the first printing's version (Source 3) which has the music as originally written, not the typeset version. I included both images in the top level images folder for clarity.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
