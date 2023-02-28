@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="4.0">
+	<work>
+		<work-title>illustration-2</work-title>
+	</work>
+	<identification>
+		<creator type="composer">Hilaire Belloc</creator>
+		<encoding>
+			<software>MuseScore 4.0.1</software>
+			<encoding-date>2023-02-20</encoding-date>
+			<supports element="accidental" type="yes"/>
+			<supports element="beam" type="yes"/>
+			<supports attribute="new-page" element="print" type="yes" value="yes"/>
+			<supports attribute="new-system" element="print" type="yes" value="yes"/>
+			<supports element="stem" type="yes"/>
+		</encoding>
+	</identification>
+	<defaults>
+		<scaling>
+			<millimeters>6.99912</millimeters>
+			<tenths>40</tenths>
+		</scaling>
+		<page-layout>
+			<page-height>200.025</page-height>
+			<page-width>542.926</page-width>
+			<page-margins type="even">
+				<left-margin>40.0051</left-margin>
+				<right-margin>0</right-margin>
+				<top-margin>85.725</top-margin>
+				<bottom-margin>85.725</bottom-margin>
+			</page-margins>
+			<page-margins type="odd">
+				<left-margin>0</left-margin>
+				<right-margin>40.0051</right-margin>
+				<top-margin>0</top-margin>
+				<bottom-margin>0</bottom-margin>
+			</page-margins>
+		</page-layout>
+		<word-font font-family="Sorts Mill Goudy" font-size="10"/>
+		<lyric-font font-family="Sorts Mill Goudy" font-size="10"/>
+	</defaults>
+	<part-list>
+		<part-group number="1" type="start">
+			<group-symbol>brace</group-symbol>
+		</part-group>
+		<score-part id="P1">
+			<part-name>Piano</part-name>
+			<part-abbreviation>Pno.</part-abbreviation>
+			<score-instrument id="P1-I1">
+				<instrument-name>Piano</instrument-name>
+			</score-instrument>
+			<midi-device id="P1-I1" port="1"/>
+			<midi-instrument id="P1-I1">
+				<midi-channel>1</midi-channel>
+				<midi-program>1</midi-program>
+				<volume>78.7402</volume>
+				<pan>0</pan>
+			</midi-instrument>
+		</score-part>
+	</part-list>
+	<part id="P1">
+		<measure number="1" width="98.55">
+			<print>
+				<system-layout>
+					<system-margins>
+						<left-margin>50.00</left-margin>
+						<right-margin>-0.00</right-margin>
+					</system-margins>
+					<top-system-distance>70.00</top-system-distance>
+				</system-layout>
+			</print>
+			<attributes>
+				<divisions>2</divisions>
+				<key>
+					<fifths>0</fifths>
+				</key>
+				<clef>
+					<sign>G</sign>
+					<line>2</line>
+				</clef>
+			</attributes>
+			<note default-x="58.10" default-y="-30.00">
+				<pitch>
+					<step>G</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem>up</stem>
+				<lyric default-x="6.50" default-y="-40.00" number="1" relative-y="-30.00">
+					<syllabic>single</syllabic>
+					<text font-family="Sorts Mill Goudy">And</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="2" width="208.08">
+			<note default-x="13.00" default-y="-25.00">
+				<pitch>
+					<step>A</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>up</stem>
+				<lyric default-x="6.50" default-y="-40.00" number="1" relative-y="-30.00">
+					<syllabic>single</syllabic>
+					<text font-family="Sorts Mill Goudy">I</text>
+				</lyric>
+			</note>
+			<note default-x="70.98" default-y="-10.00">
+				<pitch>
+					<step>D</step>
+					<octave>5</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem>up</stem>
+				<lyric default-x="6.50" default-y="-40.00" number="1" relative-y="-30.00">
+					<syllabic>single</syllabic>
+					<text font-family="Sorts Mill Goudy">will</text>
+				</lyric>
+			</note>
+			<note default-x="109.64" default-y="-20.00">
+				<pitch>
+					<step>B</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>up</stem>
+				<lyric default-x="6.50" default-y="-40.00" number="1" relative-y="-30.00">
+					<syllabic>single</syllabic>
+					<text font-family="Sorts Mill Goudy">sing</text>
+				</lyric>
+			</note>
+			<note default-x="167.62" default-y="-30.00">
+				<pitch>
+					<step>G</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem>up</stem>
+				<lyric default-x="6.50" default-y="-40.00" number="1" relative-y="-30.00">
+					<syllabic>begin</syllabic>
+					<text font-family="Sorts Mill Goudy">Gol</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="3" width="146.29">
+			<note default-x="13.00" default-y="-15.00">
+				<pitch>
+					<step>C</step>
+					<octave>5</octave>
+				</pitch>
+				<duration>3</duration>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+				<stem>up</stem>
+				<notations>
+					<tied type="start"/>
+				</notations>
+				<lyric default-x="8.92" default-y="-40.00" number="1" relative-y="-30.00">
+					<syllabic>end</syllabic>
+					<text font-family="Sorts Mill Goudy">ier!</text>
+				</lyric>
+			</note>
+			<note default-x="86.50" default-y="-15.00">
+				<pitch>
+					<step>C</step>
+					<octave>5</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="stop"/>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>up</stem>
+				<notations>
+					<tied type="stop"/>
+				</notations>
+			</note>
+			<barline location="right">
+				<bar-style>none</bar-style>
+			</barline>
+		</measure>
+	</part>
+</score-partwise>
