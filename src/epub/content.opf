@@ -70,7 +70,7 @@
 		<dc:source>https://archive.org/details/fourmenfarrago00belliala</dc:source>
 		<!-- Source 4: Additional source used for checking music - Illustrations 14, 15, 16, 20, 26, 27-->
 		<dc:source>https://archive.org/details/fourmenfarrago00belluoft</dc:source>
-		<meta property="se:production-notes">The se typogrify command incorrectly removes no-break hyphens. The se modernize-spelling command incorrectly modernizes two proper nouns, 'Pease Pottage', 'Sierra del Cadi'; "clew"; and a few words in verse. There were "Pencil Grade" abbreviations are used inconsistently. I changed to "H.B", "B.B." and "4.H." however lint complains about 4.H. Some sources I could find about these grades don't use any periods at all, some do, there doesn't seem to be any standard. There is a 'table' of sorts in chapter 4 of the 'qualities of beer'. Also in that table, there are Hebrew letters. There is Greek script in chapter 3. There are 31 illustrations, music throughout, as well as drawings of various places in Sussex (the setting of the walk); I converted most illustrations to SVG. Which "man" is speaking is often denoted at the beginning of a paragraph using the character's title in italics, with a sort of stage direction following. I wrapped these in simple i elements.
+		<meta property="se:production-notes">The se typogrify command incorrectly removes no-break hyphens. The se modernize-spelling command incorrectly modernizes two proper nouns, 'Pease Pottage', 'Sierra del Cadi'; "clew"; and a few words in verse. There were "Pencil Grade" codes are used inconsistently. I changed to "HB", "BB" and "4H." There are Hebrew letter graphemes and Greek script in chapter 3. There are 31 illustrations, music throughout, as well as drawings of various places in Sussex (the setting of the walk); I converted most illustrations to SVG. Which "man" is speaking is often denoted at the beginning of a paragraph using the character's title in italics, with a sort of stage direction following. I wrapped these in simple i elements.
 		</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
@@ -89,9 +89,6 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Constable</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80007977</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Anonymous</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
@@ -101,6 +98,7 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
