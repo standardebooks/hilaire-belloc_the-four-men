@@ -197,7 +197,8 @@ div.aside{
 }
 /* End Running Heads/Shoulder Notes */
 
-section#dedication blockquote{
+/* Small Caps Dedication */
+[epub|type~="dedication"] p{
 	font-variant: small-caps;
 }
 
