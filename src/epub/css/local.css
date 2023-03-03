@@ -231,13 +231,6 @@ section#chapter-4 > blockquote:nth-of-type(1) p:nth-of-type(2){
 }
 /* End The Hideous Man's "Card" */
 
-/* Stage directions in block quotes, don't indent these */
-section#chapter-3 > blockquote:nth-of-type(6) > p,
-section#chapter-3 > blockquote:nth-of-type(7) > p{
-	hanging-punctuation: first last;
-	text-indent: 0;
-}
-
 /* Illustrations */
 /* Force dedication and epigraph figure widths, otherwise shows up as 0 */
 section[epub|type~="epigraph"] figure,
