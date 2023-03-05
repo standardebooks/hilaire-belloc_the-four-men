@@ -150,7 +150,7 @@ p span.i3{
 /* Start Header */
 header{
 	margin: 1em;
-	text-align: center;
+	text-align: center; /* Needed to override poem styling */
 }
 /* End Header */
 
@@ -204,29 +204,29 @@ ul{
 	padding: 0;
 }
 
-section#chapter-4 ul li{
+#chapter-4 ul li{
 	padding-left: 5.5em;
 }
 
-section#chapter-4 ul li:last-child{
+#chapter-4 ul li:last-child{
 	padding-left: 0;
 }
 /* End unordered list */
 
 /* Start The Hideous Man's "Card" */
-section#chapter-4 > blockquote:nth-of-type(1){
-	border: 1px solid black;
+#chapter-4 > blockquote:nth-of-type(1){
+	border: 1px solid;
 	font-style: italic;
 	padding: 1em;
 	width: 10em;
 }
 
-section#chapter-4 > blockquote:nth-of-type(1) p:nth-of-type(1){
+#chapter-4 > blockquote:nth-of-type(1) p:nth-of-type(1){
 	margin-bottom: 1em;
 	text-align: center;
 }
 
-section#chapter-4 > blockquote:nth-of-type(1) p:nth-of-type(2){
+#chapter-4 > blockquote:nth-of-type(1) p:nth-of-type(2){
 	text-align: right;
 }
 /* End The Hideous Man's "Card" */
@@ -241,34 +241,34 @@ section[epub|type~="dedication"] figure{
 }
 
 /* Reasonable image sizes for larger screens based on image size and text resolution (roughly ~16 px : 1em at 'normal' sizes in browsers) */
-figure#illustration-4,
-figure#illustration-7,
-figure#illustration-10,
-figure#illustration-13,
-figure#illustration-14,
-figure#illustration-15,
-figure#illustration-16,
-figure#illustration-20,
-figure#illustration-23,
-figure#illustration-26{
+#illustration-4,
+#illustration-7,
+#illustration-10,
+#illustration-13,
+#illustration-14,
+#illustration-15,
+#illustration-16,
+#illustration-20,
+#illustration-23,
+#illustration-26{
 	max-width: 40em;
 }
 
-figure#illustration-19,
-figure#illustration-21,
-figure#illustration-22,
-figure#illustration-24,
-figure#illustration-25,
-figure#illustration-27,
-figure#illustration-30,
-figure#illustration-31{
+#illustration-19,
+#illustration-21,
+#illustration-22,
+#illustration-24,
+#illustration-25,
+#illustration-27,
+#illustration-30,
+#illustration-31{
 	max-width: 30em;
 }
 
-figure#illustration-5,
-figure#illustration-8,
-figure#illustration-11,
-figure#illustration-17,
-figure#illustration-28{
+#illustration-5,
+#illustration-8,
+#illustration-11,
+#illustration-17,
+#illustration-28{
 	max-width: 20em;
 }
