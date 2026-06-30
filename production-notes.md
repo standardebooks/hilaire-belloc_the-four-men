@@ -1,0 +1,1 @@
+The se typogrify command incorrectly removes no-break hyphens. The se modernize-spelling command incorrectly modernizes two proper nouns, 'Pease Pottage', 'Sierra del Cadi'; "clew"; and a few words in verse. There were "Pencil Grade" codes are used inconsistently.
