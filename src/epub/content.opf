@@ -38,7 +38,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Four Men: A Farrago</dc:title>
 		<meta property="file-as" refines="#fulltitle">Four Men, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<meta property="dcterms:alternative" refines="#fulltitle">The 4 Men: A Farrago</meta>
 		<dc:subject id="subject-1">Sussex (England)--Social life and customs--Humor.</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
